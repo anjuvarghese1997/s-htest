@@ -1,0 +1,18 @@
+
+<form action="" [formGroup]="regForm">
+<div class="main">
+    <div>
+        <label for="">First Name</label><input type="text" class="form-control"  formControlName="fname" >
+        <label for="">Last Name</label><input type="text" class="form-control"  formControlName="lname" >
+        <label for="">Age</label><input type="text" class="form-control"  formControlName="age" >
+        <label for="">Gender</label><input type="text" class="form-control"  formControlName="gender" >
+        <label for="">Email</label><input type="text" class="form-control"  formControlName="email" >
+        <label for="">User Name</label><input type="text" class="form-control"  formControlName="uname" >
+        <label for="">Pasword</label><input type="text" class="form-control"  formControlName="pass" >
+        <label for="">Phone</label><input type="text" class="form-control"  formControlName="phone" >
+        <br><br>
+        <button (click)="submit()">SUBMIT</button> 
+    </div>
+</div>
+
+</form>
